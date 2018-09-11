@@ -19,3 +19,6 @@ iocage fetch -P -n mineos.json ip4_addr="em0|192.168.0.100"
 This will install [MineOS](https://minecraft.codeemo.com/mineoswiki/index.php?title=MineOS-node_(pkg_add)), an easy way to create, host and manage Minecraft servers via a Web-based User Interface.
 ### node-red.json
 This will install [Node-RED](https://nodered.org/).
+### tetris.json
+This will install [Bastet](http://fph.altervista.org/prog/bastet.html) (short for Bastard Tetris).
+
