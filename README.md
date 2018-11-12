@@ -21,4 +21,6 @@ This will install [MineOS](https://minecraft.codeemo.com/mineoswiki/index.php?ti
 This will install [Node-RED](https://nodered.org/).
 ### tetris.json
 This will install [Bastet](http://fph.altervista.org/prog/bastet.html) (short for Bastard Tetris).
+### xmage.json
+This will install the server components of [XMage](http://xmage.de/) 
 
