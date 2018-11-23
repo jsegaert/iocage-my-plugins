@@ -1,7 +1,7 @@
 {
-  "name": "xmage",                                                             
+  "name": "xmage-server",
   "release": "11.2-RELEASE",
-  "artifact": "https://github.com/jsegaert/iocage-plugin-xmage.git",
+  "artifact": "https://github.com/jsegaert/iocage-plugin-xmage-server.git",
   "properties": { 
     "mount_procfs":"1",
     "allow_raw_sockets":"1",
