@@ -23,4 +23,6 @@ This will install [Node-RED](https://nodered.org/).
 This will install [Bastet](http://fph.altervista.org/prog/bastet.html) (short for Bastard Tetris).
 ### xmage-server.json
 This will install the server components of [XMage](http://xmage.de/) 
+### jdownloader.json
+This will install [JDownloader](http://jdownloader.org/)
 
