@@ -9,6 +9,7 @@
     "boot":"on"
       },
   "pkgs": [
+    "textproc/jq",
     "security/ca_root_nss",
     "ftp/wget",
     "misc/compat9x",
@@ -19,7 +20,7 @@
     "multimedia/ffmpeg",
     "java/openjdk8-jre"
         ],
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
   "fingerprints": {
 	  "plugin-default": [
 		  {
