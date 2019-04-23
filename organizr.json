@@ -1,0 +1,44 @@
+{
+  "name": "organizr",                                                             
+  "plugin_schema": "2",
+  "release": "11.2-RELEASE",
+  "artifact": "https://github.com/jsegaert/iocage-plugin-organizr.git", 
+  "properties": { 
+    "vnet": "on",
+    "boot": "on"
+      },
+  "pkgs": [
+    "lang/php72",
+    "ftp/curl",
+    "ftp/php72-curl",
+    "security/openssl",
+    "security/php72-hash",
+    "security/php72-openssl",
+    "databases/sqlite3",
+    "databases/php72-pdo",
+    "databases/php72-pdo_sqlite",
+    "databases/php72-sqlite3",
+    "shells/bash",
+    "www/caddy",
+    "www/php72-session",
+    "www/php72-opcache",
+    "devel/git-lite",
+    "devel/php72-json",
+    "textproc/php72-xml",
+    "textproc/php72-simplexml",
+    "archivers/php72-zip",
+    "archivers/php72-zlib",
+    "archivers/php72-bz2",
+    "net/php72-ldap"
+    ],
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
+  "fingerprints": {
+	  "plugin-default": [
+		  {
+		  "function": "sha256",
+		  "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+	  }
+	  ]
+  },
+  "official": false
+}
