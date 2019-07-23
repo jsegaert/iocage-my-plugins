@@ -1,6 +1,6 @@
 {
   "name": "tetris",                                                             
-  "release": "11.2-RELEASE",
+  "release": "11.3-RELEASE",
   "artifact": "https://github.com/jsegaert/iocage-plugin-tetris.git",
   "properties": { 
     "allow_raw_sockets":"1",

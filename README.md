@@ -7,11 +7,11 @@ A \*BSD system with the [iocage](https://github.com/iocage/iocage) jailmanager.
 ## Installing Plugins
 Download a plugin manifest file to your local file system.
 ```
-fetch https://raw.githubusercontent.com/jsegaert/iocage-my-plugins/master/mineos.json
+fetch https://raw.githubusercontent.com/jsegaert/iocage-my-plugins/11.3-RELEASE/mineos.json
 ```
 Install the plugin.  Adjust host interface and IP address as needed.
 ```
-iocage fetch -P -n mineos.json ip4_addr="em0|192.168.0.100"
+iocage fetch -P -n mineos.json ip4_addr="em0|192.168.0.100/24" vnet=off
 ```
 
 ## Plugin manifest files
