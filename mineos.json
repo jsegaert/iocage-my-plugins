@@ -1,11 +1,11 @@
 {
-  "name": "mineos",                                                             
+  "name": "mineos",
   "plugin_schema": "2",
   "release": "11.2-RELEASE",
   "artifact": "https://github.com/jsegaert/iocage-plugin-mineos.git",
   "properties": { 
     "mount_procfs":"1",
-    "mount_linprocfs":"1",
+    "mount_linprocfs":"1"
       },
   "pkgs": [
     "sysutils/rdiff-backup",
