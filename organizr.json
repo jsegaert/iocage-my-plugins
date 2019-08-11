@@ -14,6 +14,7 @@
     "security/openssl",
     "security/php72-hash",
     "security/php72-openssl",
+    "security/php72-filter",
     "databases/sqlite3",
     "databases/php72-pdo",
     "databases/php72-pdo_sqlite",
