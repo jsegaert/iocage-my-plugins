@@ -1,6 +1,6 @@
 {
   "name": "tetris",                                                             
-  "release": "11.3-RELEASE",
+  "release": "12.1-RELEASE",
   "artifact": "https://github.com/jsegaert/iocage-plugin-tetris.git",
   "properties": { 
     "allow_raw_sockets":"1",
@@ -10,7 +10,7 @@
     "security/ca_root_nss",
     "www/shellinabox"
       ],
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:12:amd64/quarterly",
   "fingerprints": {
 	  "plugin-default": [
 		  {

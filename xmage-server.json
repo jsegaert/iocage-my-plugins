@@ -1,6 +1,6 @@
 {
   "name": "xmage-server",
-  "release": "11.3-RELEASE",
+  "release": "12.1-RELEASE",
   "artifact": "https://github.com/jsegaert/iocage-plugin-xmage-server.git",
   "properties": { 
     "mount_procfs":"1",
@@ -11,7 +11,7 @@
     "textproc/jq",
     "java/openjdk8-jre"
       ],
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:12:amd64/quarterly",
   "fingerprints": {
 	  "plugin-default": [
 		  {
