@@ -8,11 +8,11 @@
         "nat_forwards": "tcp(8112:8112)"
      },
     "pkgs": [
-        "security/ca_root_nss",
-        "lang/python37",
-        "devel/py37-pip",
-        "graphics/py37-pillow",
-        "net-p2p/py37-libtorrent-rasterbar"
+        "ca_root_nss",
+        "python37",
+        "py37-pip",
+        "py37-pillow",
+        "py37-libtorrent-rasterbar"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
