@@ -9,9 +9,9 @@ Download a plugin manifest file to your local file system.
 ```
 fetch https://raw.githubusercontent.com/jsegaert/iocage-my-plugins/11.3-RELEASE/mineos.json
 ```
-Install the plugin.  Adjust host interface and IP address as needed.
+Install the plugin.  Adjust the network settings as needed.
 ```
-iocage fetch -P -n mineos.json ip4_addr="em0|192.168.0.100/24" vnet=off
+iocage fetch -P mineos.json -n mineos
 ```
 
 ## Plugin manifest files
