@@ -13,7 +13,8 @@
         "ffmpeg",
         "youtube_dl",
         "python37",
-        "py37-Flask"
+        "py37-Flask",
+        "py37-sqlite3"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
