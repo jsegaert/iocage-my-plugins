@@ -1,0 +1,31 @@
+{
+    "name": "huginn",
+    "plugin_schema": "2",
+    "release": "11.3-RELEASE",
+    "artifact": "https://github.com/jsegaert/iocage-plugin-huginn.git",
+    "properties": {
+        "nat":"1",
+        "nat_forwards": "tcp(3000:3000)"
+     },
+    "pkgs": [
+        "ca_root_nss",
+        "git-lite",
+        "mysql80-server",
+        "ruby",
+        "ruby26-gems",
+        "rubygem-rake",
+        "rubygem-bundler",
+        "rubygem-execjs",
+        "rubygem-foreman"
+    ],
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    "fingerprints": {
+        "plugin-default": [
+	    {
+                "function": "sha256",
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+            }
+        ]
+    },
+    "official": false
+}
