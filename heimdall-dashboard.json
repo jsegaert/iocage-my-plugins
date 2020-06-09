@@ -1,11 +1,10 @@
 {
-    "name": "heimdall",
+    "name": "heimdall-dashboard",
     "plugin_schema": "2",
     "release": "11.3-RELEASE",
     "artifact": "https://github.com/jsegaert/iocage-plugin-heimdall.git",
     "properties": {
-        "vnet":"1",
-        "nat": "0"
+        "dhcp":"1"
      },
     "pkgs": [
         "git-lite",
