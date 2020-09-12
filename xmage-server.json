@@ -5,6 +5,7 @@
   "properties": { 
     "mount_procfs":"1",
     "allow_raw_sockets":"1",
+    "dhcp":"1"
       },
   "pkgs": [
     "security/ca_root_nss",
