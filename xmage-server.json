@@ -5,14 +5,16 @@
   "properties": { 
     "mount_procfs":"1",
     "allow_raw_sockets":"1",
+    "vnet":"1",
     "dhcp":"1"
       },
   "pkgs": [
     "security/ca_root_nss",
     "textproc/jq",
+    "textproc/xmlstarlet",
     "java/openjdk8-jre"
       ],
-  "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
   "fingerprints": {
 	  "plugin-default": [
 		  {
