@@ -26,6 +26,8 @@ This will install the server components of [XMage](http://xmage.de/)
 ### jdownloader.json
 This will install [JDownloader](http://jdownloader.org/)
 ### deluge-pip.json
-This will install [Deluge](https://www.deluge-torrent.org/)
+This will install [Deluge](https://www.deluge-torrent.org/) using pip
+### deluge.json
+This will install [Deluge](https://www.deluge-torrent.org/) using pkg
 ### heimdall-dashboard.json
 This will install [Heimdall Application Dashboard](https://heimdall.site/)
