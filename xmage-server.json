@@ -1,6 +1,6 @@
 {
   "name": "xmage-server",
-  "release": "11.4-RELEASE",
+  "release": "12.2-RELEASE",
   "artifact": "https://github.com/jsegaert/iocage-plugin-xmage-server.git",
   "properties": { 
     "mount_procfs":"1",
