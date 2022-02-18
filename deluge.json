@@ -1,7 +1,7 @@
 {
     "name": "deluge",
     "plugin_schema": "2",
-    "release": "12.2-RELEASE",
+    "release": "12.3-RELEASE",
     "artifact": "https://github.com/jsegaert/iocage-plugin-deluge.git",
     "properties": {
         "nat":"1",
