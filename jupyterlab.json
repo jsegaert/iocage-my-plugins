@@ -2,7 +2,7 @@
     "name": "jupyterlab",
     "plugin_schema": "2",
     "release": "12.3-RELEASE",
-    "artifact": "https://github.com/jsegaert/iocage-plugin-dummy",
+    "artifact": "https://github.com/jsegaert/iocage-plugin-jupyterlab.git",
     "properties": {
         "nat":"1",
         "nat_forwards": "tcp(8888:8888)"
