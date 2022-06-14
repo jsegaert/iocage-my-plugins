@@ -9,16 +9,9 @@
      },
     "pkgs": [
         "py38-jupyterlab",
-        "py38-sqlite3",
-        "py38-numpy",
-        "py38-pandas",
-        "py38-matplotlib",
-        "py38-matplotlib-inline",
-        "py38-sympy",
-        "py38-seaborn", 
-        "py38-pandas"
+        "py38-pip"
     ],
-    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
     "fingerprints": {
         "plugin-default": [
 	    {
