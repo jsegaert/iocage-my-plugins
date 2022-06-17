@@ -9,7 +9,8 @@
      },
     "pkgs": [
         "py38-jupyterlab",
-        "py38-pip"
+        "py38-pip",
+        "screen"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
     "fingerprints": {
