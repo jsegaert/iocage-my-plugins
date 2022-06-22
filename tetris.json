@@ -3,8 +3,9 @@
   "release": "12.3-RELEASE",
   "artifact": "https://github.com/jsegaert/iocage-plugin-tetris.git",
   "properties": { 
-    "allow_raw_sockets":"1",
-      },
+    "nat":"1",
+    "nat_forwards": "tcp(4200:4200)"
+    },
   "pkgs": [
     "games/bastet",
     "security/ca_root_nss",
