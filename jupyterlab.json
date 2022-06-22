@@ -12,7 +12,7 @@
         "py38-pip",
         "screen"
     ],
-    "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
         "plugin-default": [
 	    {
