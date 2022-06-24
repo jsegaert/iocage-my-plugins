@@ -12,9 +12,10 @@
         "python38",
         "py38-pip",
         "py38-pillow",
-        "py38-libtorrent-rasterbar"
+        "py38-libtorrent-rasterbar",
+        "rust"
     ],
-    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
     "fingerprints": {
         "plugin-default": [
 	    {
