@@ -8,8 +8,8 @@
         "nat_forwards": "tcp(8888:8888)"
      },
     "pkgs": [
-        "py38-jupyterlab",
-        "py38-pip",
+        "py39-jupyterlab",
+        "py39-pip",
         "screen"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
