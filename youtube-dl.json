@@ -1,7 +1,7 @@
 {
     "name": "youtube-dl",
     "plugin_schema": "2",
-    "release": "12.3-RELEASE",
+    "release": "12.4-RELEASE",
     "artifact": "https://github.com/jsegaert/iocage-plugin-youtube-dl.git",
     "properties": {
         "nat":"1",

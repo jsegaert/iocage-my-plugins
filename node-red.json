@@ -1,6 +1,6 @@
 {
   "name": "node-red",                                                             
-  "release": "12.3-RELEASE",
+  "release": "12.4-RELEASE",
   "artifact": "https://github.com/jsegaert/iocage-plugin-node-red.git", 
   "properties": { 
     "allow_raw_sockets":"1",
