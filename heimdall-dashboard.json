@@ -1,7 +1,7 @@
 {
     "name": "heimdall-dashboard",
     "plugin_schema": "2",
-    "release": "12.4-RELEASE",
+    "release": "13.2-RELEASE",
     "artifact": "https://github.com/jsegaert/iocage-plugin-heimdall.git",
     "properties": {
         "dhcp":"1"
@@ -9,16 +9,18 @@
     "pkgs": [
         "git-tiny",
         "nginx",
-        "php80",
-        "php80-ctype",
-        "php80-filter",
-        "php80-mbstring",
-        "php80-pdo_sqlite",
-        "php80-session",
-        "php80-sqlite3",
-        "php80-tokenizer",
-        "php80-xml",
-        "php80-zip"
+        "php83",
+        "php83-ctype",
+        "php83-dom",
+        "php83-fileinfo",
+        "php83-filter",
+        "php83-mbstring",
+        "php83-pdo_sqlite",
+        "php83-session",
+        "php83-sqlite3",
+        "php83-tokenizer",
+        "php83-xml",
+        "php83-zip"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
